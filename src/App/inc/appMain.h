@@ -20,8 +20,8 @@
 /* USER CODE END Header */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __MAIN_H
-#define __MAIN_H
+#ifndef __APP_MAIN_H
+#define __APP_MAIN_H
 
 #ifdef __cplusplus
 extern "C"
@@ -71,6 +71,6 @@ extern "C"
 }
 #endif
 
-#endif /* __MAIN_H */
+#endif /* __APP_MAIN_H */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
