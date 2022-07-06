@@ -1,0 +1,6 @@
+[submodule "src/libs/wwDeviceDrivers"]
+	path = src/libs/wwDeviceDrivers
+	url = ../wwDeviceDrivers.git
+[submodule "src/libs/wwUtils"]
+	path = src/libs/wwUtils
+	url = ../wwUtils.git
