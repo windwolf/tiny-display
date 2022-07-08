@@ -34,7 +34,10 @@
         "algorithm": "c",
         "st7735.h": "c",
         "log.h": "c",
-        "safe_printf.h": "c"
+        "safe_printf.h": "c",
+        "bsp.h": "c",
+        "message_parser.h": "c",
+        "stdbool.h": "c"
     },
     "RTT_Studio.Build.Parallel_Jobs": "16",
     "RTT_Studio.Env_Location": "D:/RT-ThreadStudio/platform/env_released/env",

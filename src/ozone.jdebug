@@ -4,8 +4,8 @@
 *                         www.segger.com                             *
 **********************************************************************
 
-File          : D:/EE/projects/startup/stm32f1_thx_startup_cmake_gcc/ozone.jdebug
-Created       : 3 Jul 2022 16:12
+File          : D:/EE/projects/tiny-display/src/ozone.jdebug
+Created       : 7 Jul 2022 00:26
 Ozone Version : V3.26d
 */
 
@@ -22,10 +22,10 @@ void OnProjectLoad (void) {
   //
   // Dialog-generated settings
   //
-  Project.AddPathSubstitute ("D:/EE/projects/startup/stm32f1_thx_startup_cmake_gcc", "$(ProjectDir)");
-  Project.AddPathSubstitute ("d:/ee/projects/startup/stm32f1_thx_startup_cmake_gcc", "$(ProjectDir)");
+  Project.AddPathSubstitute ("D:/EE/projects/tiny-display/src", "$(ProjectDir)");
+  Project.AddPathSubstitute ("d:/ee/projects/tiny-display/src", "$(ProjectDir)");
   Project.SetDevice ("STM32F103C8");
-  Project.SetHostIF ("USB", "50120677");
+  Project.SetHostIF ("USB", "");
   Project.SetTargetIF ("SWD");
   Project.SetTIFSpeed ("4 MHz");
   Project.AddSvdFile ("$(InstallDir)/Config/CPU/Cortex-M3.svd");

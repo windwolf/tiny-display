@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.lds": "linkerscript",
+        "stm32f1xx_hal.h": "c"
+    }
+}

@@ -3,6 +3,7 @@
 #include "ssd1306/ssd1306.h"
 #include "bsp.h"
 #include "fonts/fonts.h"
+#include "stm32f1xx_hal.h"
 
 #define LOG_MODULE "SSD1306demo"
 #include "log.h"
@@ -13,7 +14,7 @@ SoftI2CDevice softi2c;
 I2CDevice i2c;
 SSD1306 ZJ0_91in = {
     .width = 128,
-    .height = 64,
+    .height = 32,
     .memoryMode = SSD1306_MEMORY_ADDRESSING_MODE_VERTICAL,
     .enableChargePump = true,
     .comInverted = true,
@@ -21,7 +22,7 @@ SSD1306 ZJ0_91in = {
     .comLeftRightRemap = false,
     .comAlternative = false,
     .displayInverted = false,
-    .displayStartLine = 0,
+    .displayStartLine = 32,
     .displayOffset = 0,
     .multiplexRatio = 63,
     .phase1period = 0x02,
@@ -33,8 +34,7 @@ SSD1306 ZJ0_91in = {
 
 CanvasInfo canvasInfo = {
     .width = 128,
-    .height = 64,
-    .buffer = (uint8_t *)ZJ0_91in.data_buffer,
+    .height = 32,
     .direction = FONT_MEMORY_LAYOUT_DIRECTION_VERTICAL,
     .pixelSize = PIXEL_SIZE_1BIT,
 };
@@ -61,7 +61,10 @@ void ssd1306_demo(void)
 
     while (1)
     {
-        FONTS_FillData(&canvasInfo, 0, 0, "!!", &Font6x8_v, &fontDrawInfo);
+        FONTS_FillData(ZJ0_91in.data_buffer, &canvasInfo, 0, 0, "!!", &Font6x8_v, &fontDrawInfo);
+        FONTS_FillData(ZJ0_91in.data_buffer, &canvasInfo, 0, 8, "??", &Font6x8_v, &fontDrawInfo);
+        FONTS_FillData(ZJ0_91in.data_buffer, &canvasInfo, 0, 16, "AA", &Font6x8_v, &fontDrawInfo);
+        FONTS_FillData(ZJ0_91in.data_buffer, &canvasInfo, 0, 24, "aa", &Font6x8_v, &fontDrawInfo);
         ssd1306_draw(&ZJ0_91in);
         LOG_I("draw finished.");
     }
