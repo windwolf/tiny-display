@@ -4,3 +4,6 @@
 [submodule "src/libs/wwDevice"]
 	path = src/libs/wwDevice
 	url = ../wwDevice.git
+[submodule "src/libs/wwTalk"]
+	path = src/libs/wwTalk
+	url = ../wwTalk.git
