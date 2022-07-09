@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-#define UART1_RX_BUFFER_SIZE 16
+#define UART1_RX_BUFFER_SIZE 32
 
 #ifdef __cplusplus
 }
