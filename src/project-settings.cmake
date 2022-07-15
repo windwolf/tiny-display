@@ -9,6 +9,7 @@ option(USE_HAL_LIB "Enable HAL library" ON)
 
 option(USE_SYSTEM_VIEW "Enable Segger SystemView library" OFF)
 
+
 # set(OS_PORT "threadx")
 # set(OS_PORT "nortos")
 set(OS_PORT "freertos")

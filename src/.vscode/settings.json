@@ -41,7 +41,10 @@
         "ssd1306.h": "c",
         "block.h": "c",
         "tree_accessor_test.h": "c",
-        "minunit.h": "c"
+        "minunit.h": "c",
+        "ssd1306_demo.h": "c",
+        "string.h": "c",
+        "appmain.h": "c"
     },
     "RTT_Studio.Build.Parallel_Jobs": "16",
     "RTT_Studio.Env_Location": "D:/RT-ThreadStudio/platform/env_released/env",

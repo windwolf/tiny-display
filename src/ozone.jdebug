@@ -22,12 +22,12 @@ void OnProjectLoad (void) {
   //
   // Dialog-generated settings
   //
-  Project.AddPathSubstitute ("D:/EE/projects/tiny-display/src", "$(ProjectDir)");
-  Project.AddPathSubstitute ("d:/ee/projects/tiny-display/src", "$(ProjectDir)");
   Project.SetDevice ("STM32F103C8");
   Project.SetHostIF ("USB", "");
   Project.SetTargetIF ("SWD");
   Project.SetTIFSpeed ("4 MHz");
+  Project.AddPathSubstitute ("D:/EE/projects/tiny-display/src", "$(ProjectDir)");
+  Project.AddPathSubstitute ("d:/ee/projects/tiny-display/src", "$(ProjectDir)");
   Project.AddSvdFile ("$(InstallDir)/Config/CPU/Cortex-M3.svd");
   Project.AddSvdFile ("D:/EE/docs/svd/STM32F1/STM32F103xx.svd");
   //

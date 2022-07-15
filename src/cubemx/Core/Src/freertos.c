@@ -72,7 +72,7 @@ void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 void MX_FREERTOS_Init(void)
 {
   /* USER CODE BEGIN Init */
-
+  SEGGER_RTT_Init();
   /* USER CODE END Init */
 
   /* USER CODE BEGIN RTOS_MUTEX */
@@ -115,9 +115,10 @@ void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN StartDefaultTask */
   /* Infinite loop */
+  setup();
   for (;;)
   {
-    appMain();
+    loop();
     osDelay(1);
   }
   /* USER CODE END StartDefaultTask */
