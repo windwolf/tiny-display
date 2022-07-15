@@ -8,7 +8,6 @@ extern "C"
 #endif
 
 #include "stm32f1xx_hal.h"
-#include "io/SEGGER_RTT.h"
 
   void setup(void);
   void loop(void);

@@ -44,7 +44,10 @@
         "minunit.h": "c",
         "ssd1306_demo.h": "c",
         "string.h": "c",
-        "appmain.h": "c"
+        "appmain.h": "c",
+        "segger_rtt.h": "c",
+        "cstdio": "c",
+        "bsp_pin.h": "c"
     },
     "RTT_Studio.Build.Parallel_Jobs": "16",
     "RTT_Studio.Env_Location": "D:/RT-ThreadStudio/platform/env_released/env",

@@ -9,6 +9,8 @@ option(USE_HAL_LIB "Enable HAL library" ON)
 
 option(USE_SYSTEM_VIEW "Enable Segger SystemView library" OFF)
 
+option(USE_RTT_PRINT "Enable RTT log" ON)
+option(USE_UART_PRINT "Enable UART log" OFF)
 
 # set(OS_PORT "threadx")
 # set(OS_PORT "nortos")
