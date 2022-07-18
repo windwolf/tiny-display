@@ -7,3 +7,6 @@
 [submodule "src/libs/wwTalk"]
 	path = src/libs/wwTalk
 	url = ../wwTalk.git
+[submodule "src/libs/wwCmake"]
+	path = src/libs/wwCmake
+	url = https://www.github.com/windwolf/wwCmake.git

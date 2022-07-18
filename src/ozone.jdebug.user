@@ -1,42 +1,48 @@
 
-Breakpoint=D:/EE/projects/tiny-display/src/App/appMain.c:71:1, State=BP_STATE_DISABLED
-OpenDocument="main.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/main.c", Line=60
-OpenDocument="stream.c", FilePath="D:/EE/projects/tiny-display/src/libs/wwDevice/common/stream.c", Line=69
-OpenDocument="cmsis_os2.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c", Line=796
-OpenDocument="startup_stm32f103xb.s", FilePath="D:/EE/projects/tiny-display/src/cubemx/startup_stm32f103xb.s", Line=57
-OpenDocument="freertos.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/freertos.c", Line=101
-OpenDocument="stm32f1xx_it.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/stm32f1xx_it.c", Line=81
-OpenDocument="tasks.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/tasks.c", Line=3455
-OpenDocument="port.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c", Line=370
-OpenDocument="device.c", FilePath="D:/EE/projects/tiny-display/src/libs/wwDevice/common/device.c", Line=27
-OpenDocument="SEGGER_RTT_Syscalls_GCC.c", FilePath="D:/EE/projects/tiny-display/src/libs/wwDevice/io/SEGGER_RTT_Syscalls_GCC.c", Line=93
-OpenDocument="port.c", FilePath="D:/EE/projects/tiny-display/src/libs/wwBase/os/freertos/port.c", Line=33
-OpenDocument="log.c", FilePath="D:/EE/projects/tiny-display/src/libs/wwBase/base/log.c", Line=0
-OpenDocument="SEGGER_RTT.c", FilePath="D:/EE/projects/tiny-display/src/libs/wwDevice/io/SEGGER_RTT.c", Line=1194
-OpenDocument="list.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/list.c", Line=81
-OpenDocument="cmsis_gcc.h", FilePath="D:/EE/projects/tiny-display/src/cubemx/Drivers/CMSIS/Include/cmsis_gcc.h", Line=377
-OpenDocument="portmacro.h", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h", Line=198
-OpenDocument="appMain.c", FilePath="D:/EE/projects/tiny-display/src/App/appMain.c", Line=92
+Breakpoint=D:/EE/projects/tiny-display/src/libs/wwTalk/message/message_parser_test.c:559, State=BP_STATE_ON
+Breakpoint=D:/EE/projects/tiny-display/src/libs/wwTalk/message/message_parser_test.c:560, State=BP_STATE_ON
+Breakpoint=D:/EE/projects/tiny-display/src/libs/wwTalk/message/message_parser_test.c:561, State=BP_STATE_ON
+Breakpoint=D:/EE/projects/tiny-display/src/libs/wwTalk/message/message_parser_test.c:562, State=BP_STATE_ON
+Breakpoint=D:/EE/projects/tiny-display/src/libs/wwTalk/message/message_parser_test.c:563, State=BP_STATE_ON
+Breakpoint=D:/EE/projects/tiny-display/src/libs/wwTalk/message/message_parser_test.c:564, State=BP_STATE_ON
+Breakpoint=D:/EE/projects/tiny-display/src/libs/wwTalk/message/message_parser_test.c:565, State=BP_STATE_ON
+Breakpoint=D:/EE/projects/tiny-display/src/libs/wwTalk/message/message_parser_test.c:566, State=BP_STATE_ON
+Breakpoint=D:/EE/projects/tiny-display/src/App/appMain.c:74, State=BP_STATE_ON
+OpenDocument="startup_stm32f103xb.s", FilePath="D:/EE/projects/tiny-display/src/cubemx/startup_stm32f103xb.s", Line=49
+OpenDocument="port.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c", Line=160
+OpenDocument="main.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/main.c", Line=52
+OpenDocument="cmsis_os2.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c", Line=772
+OpenDocument="list.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/list.c", Line=139
+OpenDocument="tasks.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/tasks.c", Line=3203
+OpenDocument="message_parser_test.c", FilePath="D:/EE/projects/tiny-display/src/libs/wwTalk/message/message_parser_test.c", Line=508
+OpenDocument="freertos.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/freertos.c", Line=74
+OpenDocument="message_parser.c", FilePath="D:/EE/projects/tiny-display/src/libs/wwTalk/message/message_parser.c", Line=58
+OpenDocument="appMain.c", FilePath="D:/EE/projects/tiny-display/src/App/appMain.c", Line=58
+OpenDocument="stm32f1xx_it.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/stm32f1xx_it.c", Line=73
+OpenDocument="timers.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/timers.c", Line=487
+OpenDocument="bsp_uart.c", FilePath="D:/EE/projects/tiny-display/src/libs/wwDevice/bsp/stm32f1xx/bsp_uart.c", Line=83
+OpenDocument="port.c", FilePath="D:/EE/projects/tiny-display/src/libs/wwBase/os/freertos/port.c", Line=0
+OpenDocument="stream.c", FilePath="D:/EE/projects/tiny-display/src/libs/wwDevice/common/stream.c", Line=15
 OpenToolbar="Debug", Floating=0, x=0, y=0
-OpenWindow="Call Stack", DockArea=BOTTOM, x=0, y=0, w=319, h=345, TabPos=1, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Registers 1", DockArea=RIGHT, x=0, y=1, w=473, h=223, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, FilteredItems=[], RefreshRate=1
-OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=473, h=319, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Break & Tracepoints", DockArea=LEFT, x=0, y=0, w=351, h=319, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VectorCatchIndexMask=254
-OpenWindow="Memory 1", DockArea=BOTTOM, x=3, y=0, w=587, h=345, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, EditorAddress=0x0
-OpenWindow="Global Data", DockArea=BOTTOM, x=2, y=0, w=590, h=361, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Local Data", DockArea=BOTTOM, x=3, y=0, w=587, h=345, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Functions", DockArea=LEFT, x=0, y=1, w=351, h=223, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Terminal", DockArea=BOTTOM, x=1, y=0, w=401, h=345, TabPos=1, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Console", DockArea=BOTTOM, x=1, y=0, w=401, h=345, TabPos=0, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="FreeRTOS", DockArea=BOTTOM, x=0, y=0, w=319, h=345, TabPos=0, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, Showing="Task List"
-TableHeader="Task List", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Name";"Run Count";"Priority";"Status";"Timeout";"Stack Info (Free / Size)";"ID";"Mutex Count";"Notified Value";"Notify State"], ColWidths=[110;110;110;110;110;110;110;110;110;110]
-TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Frame";"Source";"PC";"Return Address";"Stack Used"], ColWidths=[164;118;100;100;190;100]
+OpenWindow="Call Stack", DockArea=BOTTOM, x=2, y=0, w=773, h=607, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Registers 1", DockArea=RIGHT, x=0, y=1, w=463, h=270, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, FilteredItems=[], RefreshRate=1
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=463, h=106, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Break & Tracepoints", DockArea=LEFT, x=0, y=0, w=341, h=221, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VectorCatchIndexMask=254
+OpenWindow="Memory 1", DockArea=BOTTOM, x=4, y=0, w=296, h=591, TabPos=0, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, EditorAddress=0x0
+OpenWindow="Global Data", DockArea=BOTTOM, x=4, y=0, w=296, h=591, TabPos=1, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Local Data", DockArea=BOTTOM, x=3, y=0, w=241, h=607, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Functions", DockArea=LEFT, x=0, y=1, w=341, h=155, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Terminal", DockArea=BOTTOM, x=0, y=0, w=328, h=591, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Console", DockArea=BOTTOM, x=0, y=0, w=328, h=591, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="FreeRTOS", DockArea=BOTTOM, x=1, y=0, w=278, h=607, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, Showing="Task List"
+TableHeader="Global Data", SortCol="Location", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Scope"], ColWidths=[220;246;100;100;184;301]
 TableHeader="Local Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Scope"], ColWidths=[177;443;110;100;246;100]
-TableHeader="Global Data", SortCol="Location", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Scope"], ColWidths=[220;246;100;100;184;100]
+TableHeader="Task List", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Name";"Run Count";"Priority";"Status";"Timeout";"Stack Info (Free / Size)";"ID";"Mutex Count";"Notified Value";"Notify State"], ColWidths=[110;110;110;110;110;110;110;110;110;1439]
 TableHeader="Vector Catches", SortCol="None", SortOrder="ASCENDING", VisibleCols=["";"Vector Catch";"Description"], ColWidths=[50;300;500]
-TableHeader="Break & Tracepoints", SortCol="None", SortOrder="ASCENDING", VisibleCols=["";"Type";"Location";"Extras"], ColWidths=[100;100;100;100]
-TableHeader="Functions", SortCol="Address", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Source"], ColWidths=[258;79;52;53;805]
+TableHeader="Break & Tracepoints", SortCol="None", SortOrder="ASCENDING", VisibleCols=["";"Type";"Location";"Extras"], ColWidths=[100;100;100;189]
+TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Source"], ColWidths=[258;79;52;53;805]
 TableHeader="Power Sampling", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
 TableHeader="Registers 1", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[197;118;94;259]
 TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Frame";"Source";"PC";"Return Address";"Stack Used"], ColWidths=[164;118;100;100;190;101]
 TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;762]

@@ -5,6 +5,7 @@
 #include "ringbuffer.h"
 #include "common/stream.h"
 #include "message/message_parser.h"
+#include "message/message_parser_test.h"
 #include "appMain.h"
 #include "string.h"
 #include "device/ssd1306.h"
@@ -70,6 +71,8 @@ FontDrawInfo fontDrawInfo = {
 void setup(void)
 {
 
+  message_parser_test();
+
   pin_device_create(&scl, GPIOB, GPIO_PIN_6, PIN_DEVICE_STATUS_INVERSE_NORMAL);
   pin_device_create(&sda, GPIOB, GPIO_PIN_7, PIN_DEVICE_STATUS_INVERSE_NORMAL);
   softi2c.scl = &scl;
@@ -91,6 +94,7 @@ void setup(void)
 
 void loop(void)
 {
+  LOG_I("loop begin");
   uint16_t rssi;
   uint16_t rssi1;
   uint16_t rssi2;
