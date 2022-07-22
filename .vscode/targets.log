@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Thu Jul 07 11:09:09 2022
+# Make data base, printed on Fri Jul 22 22:23:36 2022
 
 # ����
 
@@ -18,8 +18,6 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 ?F = $(notdir $?)
 # makefile
 MAKEFLAGS = Rrqp
-# ����
-VSCODE_LOG_NATIVE = false
 # �Զ�
 ?D = $(patsubst %/,%,$(dir $?))
 # ����
@@ -51,13 +49,9 @@ FPS_BROWSER_USER_PROFILE_STRING = Default
 # ����
 TMP = C:\Users\zhouj\AppData\Local\Temp
 # ����
-VSCODE_VERBOSE_LOGGING = true
-# ����
 PROGRAMW6432 = C:\Program Files
 # ����
 PROGRAMDATA = C:\ProgramData
-# ����
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-31515ef9-2103-42ad-8a8d-f7394ce28df2-sock
 # ����
 VSCODE_CWD = C:\Users\zhouj\AppData\Local\Programs\Microsoft VS Code
 # ����
@@ -73,13 +67,11 @@ PROCESSOR_ARCHITECTURE = x86
 # ����
 VXIPNPPATH64 = C:\Program Files\IVI Foundation\VISA\
 # ����
-VSCODE_IPC_HOOK = \\.\pipe\2f7d4ee14147f74b5a2d8c98572339f5-1.68.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\2f7d4ee14147f74b5a2d8c98572339f5-1.69.2-main-sock
 # ����
 USERPROFILE = C:\Users\zhouj
 # ����
 ALLUSERSPROFILE = C:\ProgramData
-# ����
-VSCODE_LOG_STACK = false
 # ����
 NUMBER_OF_PROCESSORS = 16
 # ����
@@ -91,9 +83,7 @@ NIIVIPATH = C:\Program Files (x86)\IVI Foundation\IVI\
 # �Զ�
 %F = $(notdir $%)
 # ����
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5392_HMFCSXCJQAYHLMHO
-# ����
-VSCODE_PIPE_LOGGING = true
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16684_GIQUGOMWOXEOBNNQ
 # ����
 COMPUTERNAME = DESKTOP-LNJUOJV
 # ����
@@ -109,7 +99,7 @@ PUBLIC = C:\Users\Public
 # ����
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # ����
-VSCODE_CODE_CACHE_PATH = C:\Users\zhouj\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = C:\Users\zhouj\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # ����
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # ����
@@ -205,11 +195,11 @@ PROCESSOR_LEVEL = 6
 # ����
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # ����
-VSCODE_PID = 5392
+VSCODE_PID = 16684
 # ����
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-LNJUOJV
 # variable set hash-table stats:
-# Load=98/1024=10%, Rehash=0, Collisions=11/115=10%
+# Load=93/1024=9%, Rehash=0, Collisions=11/110=10%
 
 # Pattern-specific Variable Values
 
@@ -225,19 +215,19 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-LNJUOJV
 # C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ (�ؼ��� C:/Program Files/Microsoft SQL Server/150/Tools/Binn/���޸�ʱ�� 1650456742)��4 �ļ��� �� impossibilities.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (�ؼ��� C:/Windows/System32/WindowsPowerShell/v1.0/���޸�ʱ�� 1622915612)��31 �ļ��� �� impossibilities.
 # C:\Windows\System32\Wbem (�ؼ��� C:/Windows/System32/Wbem���޸�ʱ�� 1652247460)��155 �ļ��� �� impossibilities.
-# . (�ؼ��� d:/EE/projects/tiny-display���޸�ʱ�� 1657098147)��8 �ļ��� �� impossibilities.
+# . (�ؼ��� d:/EE/projects/tiny-display���޸�ʱ�� 1658131419)��8 �ļ��� �� impossibilities.
 # C:\Program Files\Renode\bin (�ؼ��� C:/Program Files/Renode/bin���޸�ʱ�� 1652092064)��50 �ļ��� �� impossibilities.
 # C:\Program Files\nodejs\ (�ؼ��� C:/Program Files/nodejs/���޸�ʱ�� 1643136336)��13 �ļ��� �� impossibilities.
 # C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (�ؼ��� C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common���޸�ʱ�� 1643149972)��10 �ļ��� �� impossibilities.
-# C:\Users\zhouj\AppData\Local\Microsoft\WindowsApps (�ؼ��� C:/Users/zhouj/AppData/Local/Microsoft/WindowsApps���޸�ʱ�� 1657092923)��37 �ļ��� �� impossibilities.
+# C:\Users\zhouj\AppData\Local\Microsoft\WindowsApps (�ؼ��� C:/Users/zhouj/AppData/Local/Microsoft/WindowsApps���޸�ʱ�� 1658379802)��35 �ļ��� �� impossibilities.
 # C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin (�ؼ��� C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin���޸�ʱ�� 1643136387)��35 �ļ��� �� impossibilities.
-# C:\Program Files\dotnet\ (�ؼ��� C:/Program Files/dotnet/���޸�ʱ�� 1655303966)��8 �ļ��� �� impossibilities.
+# C:\Program Files\dotnet\ (�ؼ��� C:/Program Files/dotnet/���޸�ʱ�� 1657963851)��8 �ļ��� �� impossibilities.
 # C:\Users\zhouj\AppData\Roaming\npm (�ؼ��� C:/Users/zhouj/AppData/Roaming/npm���޸�ʱ�� 1646288331)��6 �ļ��� �� impossibilities.
 # C:\Windows\System32\OpenSSH\���޷�������� stat ������
 # C:\Program Files (x86)\Common Files\Oracle\Java\javapath (�ؼ��� C:/Program Files (x86)/Common Files/Oracle/Java/javapath���޸�ʱ�� 1651208875)��5 �ļ��� �� impossibilities.
 # C:\userapps\ninja (�ؼ��� C:/userapps/ninja���޸�ʱ�� 1643134269)��3 �ļ��� �� impossibilities.
 # C:\Program Files\Polyspace\R2020a\polyspace\bin (�ؼ��� C:/Program Files/Polyspace/R2020a/polyspace/bin���޸�ʱ�� 1643138509)��82 �ļ��� �� impossibilities.
-# C:\Windows (�ؼ��� C:/Windows���޸�ʱ�� 1656993388)��116 �ļ��� �� impossibilities.
+# C:\Windows (�ؼ��� C:/Windows���޸�ʱ�� 1658378811)��114 �ļ��� �� impossibilities.
 # C:\Program Files\IVI Foundation\IVI\bin (�ؼ��� C:/Program Files/IVI Foundation/IVI/bin���޸�ʱ�� 1647312153)��50 �ļ��� �� impossibilities.
 # C:\Program Files\Azure Data Studio\bin (�ؼ��� C:/Program Files/Azure Data Studio/bin���޸�ʱ�� 1648178835)��4 �ļ��� �� impossibilities.
 # C:\Program Files\Polyspace\R2020a\bin (�ؼ��� C:/Program Files/Polyspace/R2020a/bin���޸�ʱ�� 1643138402)��19 �ļ��� �� impossibilities.
@@ -246,12 +236,12 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-LNJUOJV
 # C:\Users\zhouj\.cargo\bin (�ؼ��� C:/Users/zhouj/.cargo/bin���޸�ʱ�� 1650360196)��14 �ļ��� �� impossibilities.
 # C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin (�ؼ��� C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin���޸�ʱ�� 1647312210)��10 �ļ��� �� impossibilities.
 # C:\Program Files\Git\cmd (�ؼ��� C:/Program Files/Git/cmd���޸�ʱ�� 1643136727)��8 �ļ��� �� impossibilities.
-# C:\Windows\system32 (�ؼ��� C:/Windows/system32���޸�ʱ�� 1657118244)��3162 �ļ��� �� impossibilities.
+# C:\Windows\system32 (�ؼ��� C:/Windows/system32���޸�ʱ�� 1658379078)��3165 �ļ��� �� impossibilities.
 # C:\Program Files\CMake\bin (�ؼ��� C:/Program Files/CMake/bin���޸�ʱ�� 1643133238)��7 �ļ��� �� impossibilities.
-# C:\Users\zhouj\AppData\Local\Programs\Microsoft VS Code\bin (�ؼ��� C:/Users/zhouj/AppData/Local/Programs/Microsoft VS Code/bin���޸�ʱ�� 1655458491)��4 �ļ��� �� impossibilities.
+# C:\Users\zhouj\AppData\Local\Programs\Microsoft VS Code\bin (�ؼ��� C:/Users/zhouj/AppData/Local/Programs/Microsoft VS Code/bin���޸�ʱ�� 1658204820)��4 �ļ��� �� impossibilities.
 # C:\Program Files (x86)\GnuWin32\bin (�ؼ��� C:/Program Files (x86)/GnuWin32/bin���޸�ʱ�� 1644388469)��5 �ļ��� �� impossibilities.
 
-# 4098 �ļ��� �� impossibilities in 33 directories.
+# 4097 �ļ��� �� impossibilities in 33 directories.
 
 # Implicit Rules
 
@@ -313,7 +303,7 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Thu Jul 07 11:09:09 2022
+# Finished Make data base on Fri Jul 22 22:23:36 2022
 
  
 make.exe: *** û�й�����Դ���Ŀ�ꡰall���� ֹͣ��
