@@ -62,8 +62,8 @@ CanvasInfo canvasInfo = {
     .pixelSize = PIXEL_SIZE_1BIT,
 };
 FontDrawInfo fontDrawInfo = {
-    .backColor = 0x0,
-    .foreColor = 0x1,
+    .backColor.Value = 0x0,
+    .foreColor.Value = 0x1,
     .lineSpacing = 1,
     .spacing = 0,
 };

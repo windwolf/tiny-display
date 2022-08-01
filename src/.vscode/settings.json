@@ -48,7 +48,10 @@
         "segger_rtt.h": "c",
         "cstdio": "c",
         "bsp_pin.h": "c",
-        "temporal.h": "c"
+        "temporal.h": "c",
+        "led.h": "c",
+        "stdint.h": "c",
+        "stm32f1xx_ll_tim.h": "c"
     },
     "RTT_Studio.Build.Parallel_Jobs": "16",
     "RTT_Studio.Env_Location": "D:/RT-ThreadStudio/platform/env_released/env",
