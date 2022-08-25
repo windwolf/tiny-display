@@ -12,6 +12,8 @@ option(USE_SYSTEM_VIEW "Enable Segger SystemView library" OFF)
 option(USE_RTT_PRINT "Enable RTT log" ON)
 option(USE_UART_PRINT "Enable UART log" OFF)
 
+option(ENABLE_DEMO "Enable demo" OFF)
+
 # set(OS_PORT "threadx")
 # set(OS_PORT "nortos")
 set(OS_PORT "freertos")
