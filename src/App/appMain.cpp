@@ -54,7 +54,7 @@ class App
     UartStream stream;
     MessageParser mp;
     MessageSchema schema;
-    CallbackWaitHandler wh;
+    PollingWaitHandler wh;
 };
 
 App::App()
@@ -62,7 +62,10 @@ App::App()
       ZJ0_91in(softi2c),
       uartRxRingBuffer(uart1_rx_buffer, 1, UART1_RX_BUFFER_SIZE),
       uart1Dev(huart1), stream(uart1Dev, uartRxRingBuffer),
-      mp(uartRxRingBuffer), wh((void *)this)
+      mp(uartRxRingBuffer), wh(){
+
+                            };
+void App::setup()
 {
     scl.config_get().inverse = false;
     scl.init();
@@ -90,7 +93,8 @@ App::App()
         .clkDivide = 0x00,
     };
     ZJ0_91in.init();
-    // uart1Dev.init();
+    uart1Dev.init();
+    stream.init();
     mp.init(MessageSchema{
         .prefix = {0xFF, 0xFE},
         .prefixSize = 2,
@@ -108,9 +112,6 @@ App::App()
             },
         .suffixSize = 0,
     });
-};
-void App::setup()
-{
 
     fontDrawInfo = {
         .foreColor =
@@ -151,7 +152,7 @@ void App::loop()
     uint8_t fData[16];
 
     wh.wait(TIMEOUT_FOREVER);
-
+    wh.reset();
     while (mp.frame_get(nullptr, frame) == Result_OK)
     {
         frame.extract(fData);

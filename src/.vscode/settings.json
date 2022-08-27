@@ -29,7 +29,8 @@
         "os.h": "c",
         "uart_stream.hpp": "c",
         "stdarg.h": "c",
-        "nmea.h": "c"
+        "nmea.h": "c",
+        "stdlib.h": "c"
     },
     "RTT_Studio.Build.Parallel_Jobs": "16",
     "RTT_Studio.Env_Location": "D:/RT-ThreadStudio/platform/env_released/env",
