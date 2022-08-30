@@ -41,7 +41,7 @@ class App
   private:
     FontDrawInfo fontDrawInfo;
     CanvasInfo canvasInfo;
-
+    EventGroup eg;
     Pin scl;
     Pin sda;
     I2cMaster softi2c;
@@ -54,13 +54,14 @@ class App
     UartStream stream;
     MessageParser mp;
     MessageSchema schema;
-    PollingWaitHandler wh;
+    EventGroupWaitHandler wh;
 };
 
 App::App()
-    : scl(*GPIOB, GPIO_PIN_6), sda(*GPIOB, GPIO_PIN_7), softi2c(scl, sda), ZJ0_91in(softi2c),
-      uartRxRingBuffer(uart1_rx_buffer, 1, UART1_RX_BUFFER_SIZE), uart1Dev(huart1),
-      stream(uart1Dev, uartRxRingBuffer), mp(uartRxRingBuffer), wh(){};
+    : eg(""), scl(*GPIOB, GPIO_PIN_6), sda(*GPIOB, GPIO_PIN_7), softi2c(scl, sda),
+      ZJ0_91in(softi2c, eg, 0x01, 0x02), uartRxRingBuffer(uart1_rx_buffer, 1, UART1_RX_BUFFER_SIZE),
+      uart1Dev(huart1), stream(uart1Dev, uartRxRingBuffer), mp(uartRxRingBuffer),
+      wh(eg, 0x04, 0x08){};
 void App::setup()
 {
     scl.config_get().inverse = false;
