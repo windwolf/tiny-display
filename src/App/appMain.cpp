@@ -9,8 +9,8 @@
 #include "string.h"
 #include "wait_handler.hpp"
 
-//#include "st77xx_demo.hpp"
-//#include "w25qxx_demo.hpp"
+#include "st77xx_demo.hpp"
+#include "w25qxx_demo.hpp"
 #include "message/message_parser_test.hpp"
 
 #define LOG_MODULE "appMain"
@@ -54,14 +54,14 @@ class App
     UartStream stream;
     MessageParser mp;
     MessageSchema schema;
-    EventGroupWaitHandler wh;
+    WaitHandler wh;
 };
 
 App::App()
     : eg(""), scl(*GPIOB, GPIO_PIN_6), sda(*GPIOB, GPIO_PIN_7), softi2c(scl, sda),
       ZJ0_91in(softi2c, eg, 0x01, 0x02), uartRxRingBuffer(uart1_rx_buffer, 1, UART1_RX_BUFFER_SIZE),
-      uart1Dev(huart1), stream(uart1Dev, uartRxRingBuffer), mp(uartRxRingBuffer),
-      wh(eg, 0x04, 0x08){};
+      uart1Dev(huart1), stream(uart1Dev, uartRxRingBuffer, eg, 0x04, 0x08), mp(uartRxRingBuffer),
+      wh(eg, 0x10, 0x20){};
 void App::setup()
 {
     scl.config_get().inverse = false;
@@ -141,8 +141,8 @@ void App::loop()
     bool get = false;
     MessageFrame frame;
     uint8_t fData[16];
-
-    wh.wait(TIMEOUT_FOREVER);
+    uint32_t scope = wh.scope_begin();
+    wh.wait(scope, TIMEOUT_FOREVER);
     wh.reset();
     while (mp.frame_get(nullptr, frame) == Result_OK)
     {
