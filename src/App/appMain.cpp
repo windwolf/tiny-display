@@ -17,7 +17,6 @@
 #include "log.h"
 
 extern UART_HandleTypeDef huart1;
-SPI_HandleTypeDef hspi1;
 namespace app
 {
 
@@ -55,6 +54,7 @@ class App
     MessageParser mp;
     MessageSchema schema;
     WaitHandler wh;
+    uint32_t scope;
 };
 
 App::App()
@@ -66,6 +66,7 @@ void App::setup()
 {
     scl.config_get().inverse = false;
     sda.config_get().inverse = false;
+    ZJ0_91in.init();
     ZJ0_91in.config_get() = SSD1306Config{
         .width = 128,
         .height = 32,
@@ -85,7 +86,6 @@ void App::setup()
         .fosc = 0x0F,
         .clkDivide = 0x00,
     };
-
     mp.init(MessageSchema{
         .prefix = {0xFF, 0xFE},
         .prefixSize = 2,
@@ -127,6 +127,8 @@ void App::setup()
     // message_parser_test();
     // ww::device::demo::st77xx_demo();
     // ww::device::demo::w25qxx_demo();
+    stream.init();
+    scope = wh.scope_begin();
     stream.server_start(wh);
 };
 
@@ -141,9 +143,9 @@ void App::loop()
     bool get = false;
     MessageFrame frame;
     uint8_t fData[16];
-    uint32_t scope = wh.scope_begin();
+
     wh.wait(scope, TIMEOUT_FOREVER);
-    wh.reset();
+
     while (mp.frame_get(nullptr, frame) == Result_OK)
     {
         frame.extract(fData);
