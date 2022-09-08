@@ -119,8 +119,8 @@ void App::setup()
     canvasInfo = {
         .width = 128,
         .height = 32,
-        .pixelSize = PIXEL_SIZE_1BIT,
-        .direction = CANVAS_MEMORY_LAYOUT_DIRECTION_VERTICAL,
+        .pixelSize = PixelSize::Bit1,
+        .direction = CanvasMemoryLayoutDirection::Vertical,
 
     };
     ZJ0_91in.lcd_init();
@@ -146,7 +146,7 @@ void App::loop()
 
     wh.wait(scope, TIMEOUT_FOREVER);
 
-    while (mp.frame_get(nullptr, frame) == Result_OK)
+    while (mp.frame_get(nullptr, frame) == Result::OK)
     {
         frame.extract(fData);
         rssi = (fData[2] << 8) | fData[3];
