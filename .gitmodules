@@ -10,3 +10,6 @@
 [submodule "src/libs/wwCmake"]
 	path = src/libs/wwCmake
 	url = https://www.github.com/windwolf/wwCmake.git
+[submodule "src/libs/wwControl"]
+	path = src/libs/wwControl
+	url = ../wwControl.git

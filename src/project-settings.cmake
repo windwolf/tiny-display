@@ -6,7 +6,7 @@ set(TARGET_MCU "STM32F103C8T6")
 
 option(USE_LL_LIB "Enable LL library" ON)
 option(USE_HAL_LIB "Enable HAL library" ON)
-
+option(USE_CMSIS_DSP_LIB "Enable CMSIS DSP library" ON)
 option(USE_SYSTEM_VIEW "Enable Segger SystemView library" OFF)
 
 option(USE_RTT_PRINT "Enable RTT log" ON)
