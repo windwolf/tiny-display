@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/wwBase" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/wwCmake" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/wwControl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/wwDevice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/wwTalk" vcs="Git" />
+  </component>
+</project>

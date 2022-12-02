@@ -13,3 +13,6 @@
 [submodule "src/libs/wwControl"]
 	path = src/libs/wwControl
 	url = ../wwControl.git
+[submodule "src/libs/wibotDSP"]
+	path = src/libs/wibotDSP
+	url = ../wibotDSP.git

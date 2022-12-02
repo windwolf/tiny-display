@@ -9,8 +9,8 @@
 #include "string.h"
 #include "wait_handler.hpp"
 
-#include "st77xx_demo.hpp"
-#include "w25qxx_demo.hpp"
+//#include "st77xx_demo.hpp"
+//#include "w25qxx_demo.hpp"
 #include "message/message_parser_test.hpp"
 
 #define LOG_MODULE "appMain"
@@ -20,14 +20,14 @@ extern UART_HandleTypeDef huart1;
 namespace app
 {
 
-using namespace ww::peripheral;
-using namespace ww::accessor;
-using namespace ww::device;
-using namespace ww;
-using namespace ww::os;
-using namespace ww::graph;
-using namespace ww::comm;
-using namespace ww::comm::test;
+using namespace wibot::peripheral;
+using namespace wibot::accessor;
+using namespace wibot::device;
+using namespace wibot;
+using namespace wibot::os;
+using namespace wibot::graph;
+using namespace wibot::comm;
+using namespace wibot::comm::test;
 
 class App
 {
@@ -125,8 +125,8 @@ void App::setup()
     };
     ZJ0_91in.lcd_init();
     // message_parser_test();
-    // ww::device::demo::st77xx_demo();
-    // ww::device::demo::w25qxx_demo();
+    // wibot::device::demo::st77xx_demo();
+    // wibot::device::demo::w25qxx_demo();
     stream.init();
     scope = wh.scope_begin();
     stream.server_start(wh);
