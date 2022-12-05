@@ -64,10 +64,10 @@ App::App()
       wh(eg, 0x10, 0x20){};
 void App::setup()
 {
-    scl.config_get().inverse = false;
-    sda.config_get().inverse = false;
+    scl.config.inverse = false;
+    sda.config.inverse = false;
     ZJ0_91in.init();
-    ZJ0_91in.config_get() = SSD1306Config{
+    ZJ0_91in.config = SSD1306Config{
         .width = 128,
         .height = 32,
         .memoryMode = SSD1306_MEMORY_ADDRESSING_MODE_VERTICAL,
