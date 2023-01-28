@@ -19,5 +19,3 @@ option(ENABLE_DEMO "Enable demo" ON)
 set(OS_PORT "freertos")
 set(OS_PORT_FREERTOS_MEM_MANG "heap4")
 
-# set(BSP_PORT "stm32h750")
-set(BSP_PORT "stm32f1xx")
