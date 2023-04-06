@@ -14,7 +14,7 @@ include(${CMAKE_CURRENT_SOURCE_DIR}/project-settings.cmake)
 include(${CMAKE_SOURCE_DIR}/Libs/wwCmake/prepare_env.cmake)
 
 project(${PROJECT_NAME} C CXX ASM)
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_C_STANDARD 17)
 
 message(STATUS "Building project: ${PROJECT_NAME}")
