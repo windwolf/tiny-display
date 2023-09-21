@@ -11,7 +11,7 @@ set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 # 导入目标文件定义
 include(${CMAKE_CURRENT_SOURCE_DIR}/project-settings.cmake)
 
-include(${CMAKE_SOURCE_DIR}/Libs/wwCmake/prepare_env.cmake)
+include(${CMAKE_CURRENT_SOURCE_DIR}/libs/wibotlib4arm/cmake/prepare_env.cmake)
 
 project(${PROJECT_NAME} C CXX ASM)
 set(CMAKE_CXX_STANDARD 20)
@@ -19,4 +19,4 @@ set(CMAKE_C_STANDARD 17)
 
 message(STATUS "Building project: ${PROJECT_NAME}")
 
-include(${CMAKE_SOURCE_DIR}/Libs/wwCmake/loader.cmake)
+include(${CMAKE_CURRENT_SOURCE_DIR}/libs/wibotlib4arm/cmake/loader.cmake)
