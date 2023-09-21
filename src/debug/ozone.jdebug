@@ -4,9 +4,9 @@
 *                         www.segger.com                             *
 **********************************************************************
 
-File          : D:/EE/projects/tiny-display/src/ozone.jdebug
-Created       : 7 Jul 2022 00:26
-Ozone Version : V3.26d
+File          : D:/EE/projects/tiny-display/src/debug/ozone.jdebug
+Created       : 21 Sep 2023 10:08
+Ozone Version : V3.30a
 */
 
 /*********************************************************************
@@ -22,19 +22,19 @@ void OnProjectLoad (void) {
   //
   // Dialog-generated settings
   //
+  Project.AddPathSubstitute ("D:/EE/projects/tiny-display/src/debug", "$(ProjectDir)");
+  Project.AddPathSubstitute ("d:/ee/projects/tiny-display/src/debug", "$(ProjectDir)");
   Project.SetDevice ("STM32F103C8");
   Project.SetHostIF ("USB", "");
   Project.SetTargetIF ("SWD");
   Project.SetTIFSpeed ("4 MHz");
-  Project.AddPathSubstitute ("D:/EE/projects/tiny-display/src", "$(ProjectDir)");
-  Project.AddPathSubstitute ("d:/ee/projects/tiny-display/src", "$(ProjectDir)");
   Project.AddSvdFile ("$(InstallDir)/Config/CPU/Cortex-M3.svd");
-  Project.AddSvdFile ("D:/EE/docs/svd/STM32F1/STM32F103xx.svd");
+  Project.AddSvdFile ("D:/EE/docs/svd/STM32G4/STM32G431xx.svd");
   //
   // User settings
   //
+  File.Open ("D:/EE/projects/tiny-display/src/cmake-build-debug/TinyDisplay.elf");
   Project.SetOSPlugin ("FreeRTOSPlugin");
-  File.Open ("$(ProjectDir)/build/startup.elf");
 }
 
 /*********************************************************************

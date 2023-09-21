@@ -1,49 +1,75 @@
 
-Breakpoint=D:/EE/projects/tiny-display/src/App/appMain.cpp:126, State=BP_STATE_ON
-Breakpoint=D:/EE/projects/tiny-display/src/App/appMain.cpp:160, State=BP_STATE_ON
-OpenDocument="tasks.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/tasks.c", Line=3457
-OpenDocument="startup_stm32f103xb.s", FilePath="D:/EE/projects/tiny-display/src/cubemx/startup_stm32f103xb.s", Line=58
-OpenDocument="ssd1306.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wwDevice/device/ssd1306.cpp", Line=18
-OpenDocument="appMain.cpp", FilePath="D:/EE/projects/tiny-display/src/App/appMain.cpp", Line=149
-OpenDocument="fonts.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wwBase/fonts/fonts.cpp", Line=147
-OpenDocument="uart.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wwBase/peripheral/stm32f1xx/uart.cpp", Line=27
-OpenDocument="stm32f1xx_hal_dma.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c", Line=664
-OpenDocument="port.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wwBase/os/freertos/port.cpp", Line=56
-OpenDocument="base.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wwBase/base/base.cpp", Line=18
-OpenDocument="main.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/main.c", Line=63
-OpenDocument="wait_handler.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wwBase/base/wait_handler.cpp", Line=51
-OpenDocument="stm32f1xx_hal_uart.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c", Line=3074
-OpenDocument="cmsis_os2.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c", Line=1042
-OpenDocument="stm32f1xx_it.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/stm32f1xx_it.c", Line=175
-OpenDocument="queue.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/queue.c", Line=931
-OpenDocument="uart_stream.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wwDevice/accessor/uart_stream.cpp", Line=21
-OpenDocument="SEGGER_RTT.c", FilePath="D:/EE/projects/tiny-display/src/libs/wwBase/rtt/SEGGER_RTT.c", Line=1293
-OpenDocument="usart.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/usart.c", Line=175
+
+OpenDocument="stm32f1xx_ll_gpio.h", FilePath="D:/EE/projects/tiny-display/src/cubemx/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h", Line=0
+OpenDocument="wait-handler.hpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/wait-handler.hpp", Line=38
+OpenDocument="wait-handler.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/wait-handler.cpp", Line=88
+OpenDocument="uart.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/chip/stm32/uart.cpp", Line=0
+OpenDocument="ssd1306.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/device/display/ssd1306.cpp", Line=41
+OpenDocument="spi.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/spi.c", Line=0
+OpenDocument="soft-i2c.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/chip/stm32/soft-i2c.cpp", Line=114
+OpenDocument="pin.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/chip/stm32/pin.cpp", Line=0
+OpenDocument="peripheral.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/peripheral.cpp", Line=0
+OpenDocument="message-parser.test.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/comm/message-parser.test.cpp", Line=0
+OpenDocument="app-framework.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/app/app-framework.cpp", Line=0
+OpenDocument="main.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/main.c", Line=54
+OpenDocument="message-parser.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/comm/message-parser.cpp", Line=406
+OpenDocument="freertos.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/freertos.c", Line=61
+OpenDocument="gpio.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/gpio.c", Line=0
+OpenDocument="fsm.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/control/fsm/fsm.cpp", Line=187
+OpenDocument="fonts.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/graph/fonts/fonts.cpp", Line=97
+OpenDocument="event_groups.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c", Line=671
+OpenDocument="dma.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/dma.c", Line=0
+OpenDocument="logger.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/logger.cpp", Line=0
+OpenDocument="circular-buffer.test.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/circular-buffer.test.cpp", Line=0
+OpenDocument="arch.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/arch/cortex-m3/arch.cpp", Line=0
+OpenDocument="heap_4.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c", Line=0
+OpenDocument="buffer.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/buffer.cpp", Line=64
+OpenDocument="app-framework.h", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/app/app-framework.h", Line=0
+OpenDocument="app-framework.hpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/app/app-framework.hpp", Line=0
+OpenDocument="type.hpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/type.hpp", Line=0
+OpenDocument="chrono.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/chrono.cpp", Line=0
+OpenDocument="circular-buffer.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/circular-buffer.cpp", Line=129
+OpenDocument="os.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/os/os.cpp", Line=0
+OpenDocument="list.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/list.c", Line=0
+OpenDocument="chrono.hpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/chrono.hpp", Line=0
+OpenDocument="peripheral.hpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/peripheral.hpp", Line=0
+OpenDocument="c++locale.h", FilePath="C:/ST/STM32CubeCLT/GNU-tools-for-STM32/arm-none-eabi/include/c++/11.3.1/arm-none-eabi/thumb/v7-m/nofp/bits/c++locale.h", Line=0
+OpenDocument="casic.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/comm/protocol/gnss/casic.cpp", Line=0
+OpenDocument="block.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/device/block.cpp", Line=0
+OpenDocument="buffer.hpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/buffer.hpp", Line=0
+OpenDocument="minunit.hpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/test/minunit.hpp", Line=0
+OpenDocument="i2c.hpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/chip/i2c.hpp", Line=0
+OpenDocument="MT6825SPI.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/device/rls/MT6825SPI.cpp", Line=0
+OpenDocument="os-port.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/os/freertos/os-port.cpp", Line=73
+OpenDocument="os.hpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/os/os.hpp", Line=27
+OpenDocument="message-parser.hpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/comm/message-parser.hpp", Line=93
+OpenDocument="MT6816SPI.hpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/device/rls/MT6816SPI.hpp", Line=0
+OpenDocument="lp.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/control/filter/lp.cpp", Line=0
+OpenDocument="", FilePath="", Line=0
+OpenDocument="hz16.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/graph/fonts/hz16.cpp", Line=0
+OpenDocument="kf.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/control/filter/kf.cpp", Line=0
+OpenDocument="adc.hpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/chip/adc.hpp", Line=0
+OpenDocument="initial.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/initial.cpp", Line=0
+OpenDocument="port.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c", Line=9
+OpenDocument="pwm.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/chip/stm32/pwm.cpp", Line=0
+OpenDocument="command-spi.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/device/command-spi.cpp", Line=51
+OpenDocument="linear-value-mapper.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/control/mapper/linear-value-mapper.cpp", Line=0
+OpenDocument="initial.hpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/initial.hpp", Line=0
 OpenToolbar="Debug", Floating=0, x=0, y=0
-OpenWindow="Call Stack", DockArea=BOTTOM, x=1, y=0, w=488, h=493, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Registers 1", DockArea=RIGHT, x=0, y=1, w=431, h=272, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, FilteredItems=[], RefreshRate=1
-OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=290, h=150, TabPos=0, TopOfStack=1, FilterBarShown=1, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=431, h=158, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Break & Tracepoints", DockArea=LEFT, x=0, y=1, w=290, h=264, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VectorCatchIndexMask=254
-OpenWindow="Memory 1", DockArea=BOTTOM, x=3, y=0, w=781, h=477, TabPos=0, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, EditorAddress=0xE000EC98
-OpenWindow="Global Data", DockArea=BOTTOM, x=3, y=0, w=781, h=477, TabPos=1, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Local Data", DockArea=BOTTOM, x=2, y=0, w=287, h=477, TabPos=1, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Watched Data 1", DockArea=BOTTOM, x=2, y=0, w=287, h=477, TabPos=0, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Functions", DockArea=LEFT, x=0, y=0, w=290, h=150, TabPos=1, TopOfStack=0, FilterBarShown=1, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Terminal", DockArea=BOTTOM, x=0, y=0, w=361, h=477, TabPos=1, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Console", DockArea=BOTTOM, x=0, y=0, w=361, h=477, TabPos=0, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="FreeRTOS", DockArea=BOTTOM, x=0, y=0, w=361, h=477, TabPos=2, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, Showing="Task List"
-TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh";"Access"], ColWidths=[124;100;110;100;100]
-TableHeader="Local Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Access";"Scope"], ColWidths=[197;121;110;100;246;0;100]
-TableHeader="Task List", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Name";"Run Count";"Priority";"Status";"Timeout";"Stack Info (Free / Size)";"ID";"Mutex Count";"Notified Value";"Notify State"], ColWidths=[110;110;110;110;110;196;110;110;110;1439]
-TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Class";"Source"], ColWidths=[284;79;52;53;27;100]
-TableHeader="Vector Catches", SortCol="None", SortOrder="ASCENDING", VisibleCols=["";"Vector Catch";"Description"], ColWidths=[50;300;500]
-TableHeader="Break & Tracepoints", SortCol="None", SortOrder="ASCENDING", VisibleCols=["";"Type";"Location";"Extras"], ColWidths=[100;100;100;100]
-TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Frame";"Source";"PC";"Return Address";"Stack Used"], ColWidths=[194;118;100;100;190;100]
-TableHeader="Power Sampling", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
-TableHeader="Registers 1", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[197;118;94;259]
+OpenWindow="Call Stack", DockArea=BOTTOM, x=0, y=0, w=112, h=104, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Registers 1", DockArea=RIGHT, x=0, y=0, w=681, h=804, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, FilteredItems=[], RefreshRate=1
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=488, h=547, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=681, h=804, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Memory 1", DockArea=BOTTOM, x=3, y=0, w=204, h=104, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, EditorAddress=0x80065D4
+OpenWindow="Global Data", DockArea=BOTTOM, x=2, y=0, w=290, h=104, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Local Data", DockArea=BOTTOM, x=1, y=0, w=380, h=104, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Memory Usage", DockArea=LEFT, x=0, y=1, w=488, h=272, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Terminal", DockArea=BOTTOM, x=4, y=0, w=930, h=104, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Registers 1", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Description"], ColWidths=[134;118;429]
+TableHeader="Global Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Access";"Scope"], ColWidths=[220;154;100;100;100;0;322]
+TableHeader="Local Data", SortCol="Name", SortOrder="DESCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Access";"Scope"], ColWidths=[220;142;110;100;174;0;100]
+TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Frame";"Source";"PC";"Return Address";"Stack Used"], ColWidths=[150;118;100;100;190;100]
+TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
 TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
-TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[233;100;100;100;812]
-TableHeader="Global Data", SortCol="Location", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Access";"Scope"], ColWidths=[337;202;80;100;184;0;100]
-TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;762]
-WatchedExpression="portAIRCR_REG", Window=Watched Data 1
+TableHeader="Source Files", SortCol="Size", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[233;100;100;100;882]

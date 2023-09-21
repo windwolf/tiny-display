@@ -18,7 +18,7 @@
 
 using namespace wibot;
 
-static Logger logger("appMain");
+LOGGER("appmain")
 class App : AppFramework {
    public:
     App();
@@ -117,7 +117,7 @@ void App::OnSetup() {
 };
 
 void App::OnRun() {
-    LOG_I(logger, "loop begin");
+    LOG_I("loop begin");
     uint16_t rssi;
     uint16_t rssi1;
     uint16_t rssi2;
@@ -152,7 +152,7 @@ void App::OnRun() {
         sprintf(str, "r3=%d r4=%d", rssi3, rssi4);
         FONTS_FillData(ZJ0_91in.dataBuffer, &canvasInfo, 0, 16, str, &Font6x8_v, &fontDrawInfo);
         ZJ0_91in.draw();
-        LOG_I(logger, "draw finished.");
+        LOG_I("draw finished.");
     }
 };
 static App app1 = App();
