@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <libraryRoots>
+      <file path="$PROJECT_DIR$/cubemx" />
+      <file path="$PROJECT_DIR$/libs/wibotlib4arm/CMSIS-DSP" />
+    </libraryRoots>
+  </component>
   <component name="XMakeProjectSettings">
     <option name="currentArchitecture" value="x86" />
     <option name="workingDirectory" value="$PROJECT_DIR$" />

@@ -2,7 +2,7 @@
 
 OpenDocument="stm32f1xx_ll_gpio.h", FilePath="D:/EE/projects/tiny-display/src/cubemx/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h", Line=0
 OpenDocument="wait-handler.hpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/wait-handler.hpp", Line=38
-OpenDocument="wait-handler.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/wait-handler.cpp", Line=88
+OpenDocument="wait-handler.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/base/Wait-handler.cpp", Line=88
 OpenDocument="uart.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/chip/stm32/uart.cpp", Line=0
 OpenDocument="ssd1306.cpp", FilePath="D:/EE/projects/tiny-display/src/libs/wibotlib4arm/src/device/display/ssd1306.cpp", Line=41
 OpenDocument="spi.c", FilePath="D:/EE/projects/tiny-display/src/cubemx/Core/Src/spi.c", Line=0

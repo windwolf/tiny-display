@@ -22,8 +22,8 @@ LOGGER("appmain")
 class App : AppFramework {
    public:
     App();
-    void OnSetup() override;
-    void OnRun() override;
+    void onSetup() override;
+    void onRun() override;
 
    private:
     FontDrawInfo fontDrawInfo;
@@ -32,7 +32,7 @@ class App : AppFramework {
     Pin          scl;
     Pin          sda;
     I2cMaster    softi2c;
-    SSD1306      ZJ0_91in;
+    Ssd1306      ZJ0_91in;
 
     uint8_t                 uart1_rx_buffer[UART1_RX_BUFFER_SIZE];
     CircularBuffer<uint8_t> uartRxRingBuffer;
@@ -43,15 +43,15 @@ class App : AppFramework {
         .prefix     = {0xFF, 0xFE},
         .prefixSize = 2,
 
-        .commandSize = MESSAGE_SCHEMA_SIZE::NONE,
+        .commandSize = DataWidth::kNone,
         .defaultLength{
-            .mode  = MESSAGE_LENGTH_SCHEMA_MODE::FIXED_LENGTH,
+            .mode  = MessageLengthSchemaMode::kFixedLength,
             .fixed = {.length = 14},
         },
 
-        .alterDataSize = MESSAGE_SCHEMA_SIZE::NONE,
+        .alterDataSize = DataWidth::kNone,
 
-        .crcSize    = MESSAGE_SCHEMA_SIZE::NONE,
+        .crcSize    = DataWidth::kNone,
         .suffixSize = 0,
     };
     WaitHandler wh;
@@ -68,13 +68,13 @@ App::App()
       uart1Dev(huart1, "app"),
       mp(schema, uartRxRingBuffer),
       wh(){};
-void App::OnSetup() {
+void App::onSetup() {
     scl.config.inverse = false;
     sda.config.inverse = false;
-    ZJ0_91in.config    = SSD1306Config{
+    ZJ0_91in.config    = Ssd1306Config{
            .width              = 128,
            .height             = 32,
-           .memoryMode         = SSD1306_MEMORY_ADDRESSING_MODE_VERTICAL,
+           .memoryMode         = kVERTICAL,
            .enableChargePump   = true,
            .comInverted        = true,
            .segmentInverted    = true,
@@ -86,7 +86,7 @@ void App::OnSetup() {
            .displayInverted    = false,
            .phase1period       = 0x02,
            .phase2period       = 0x02,
-           .vcomhDeselectLevel = SSD1306_VCOMH_DESELECT_LEVEL_VCC083,
+           .vcomhDeselectLevel = kVCC083,
            .fosc               = 0x0F,
            .clkDivide          = 0x00,
     };
@@ -109,14 +109,14 @@ void App::OnSetup() {
         .direction = CanvasMemoryLayoutDirection::Vertical,
 
     };
-    ZJ0_91in.lcd_init();
+    ZJ0_91in.init();
     // message_parser_test();
     // wibot::device::demo::st77xx_demo();
     // wibot::device::demo::w25qxx_demo();
     uart1Dev.start(uartRxRingBuffer, wh);
 };
 
-void App::OnRun() {
+void App::onRun() {
     LOG_I("loop begin");
     uint16_t rssi;
     uint16_t rssi1;
@@ -131,11 +131,11 @@ void App::OnRun() {
 
     while (mp.parse(&frame) == Result::kOk) {
         auto ctn = frame.getContent();
-        rssi     = ctn.GetUint16(0, false);
-        rssi1    = ctn.GetUint16(2, false);
-        rssi2    = ctn.GetUint16(4, false);
-        rssi3    = ctn.GetUint16(6, false);
-        rssi4    = ctn.GetUint16(8, false);
+        rssi     = ctn.getUint16(0);
+        rssi1    = ctn.getUint16(2);
+        rssi2    = ctn.getUint16(4);
+        rssi3    = ctn.getUint16(6);
+        rssi4    = ctn.getUint16(8);
         get      = true;
     };
 

@@ -1,6 +1,7 @@
 # stm32 cmake project startup
 
 ## 环境要求
+
 1. vscode;
 2. make;
 3. CMake; 我用的是3.17.2
@@ -18,8 +19,9 @@
 - 勾上 generate perihperal initialization as a pair of '.c/.h' files per peripheral;
 - 勾上 Do not generate the main(); 因为Src中有自己的main;
 - Timebase Source不要选择SysTick, 因为SysTick用于RTOS的tick;
-- 不生成 Pendable request for system service, System sevice call via SWI instruction 和 Time base: System tick timer 这3个中断处理函数;
-  
+- 不生成 Pendable request for system service, System sevice call via SWI instruction 和 Time base: System tick timer
+  这3个中断处理函数;
+
 ### 2. 修改 cubemx 中的STM32XXXXXXX_FLASH.ld 文件, 按如下说明修改\_user_heap_stack 段
 
 ```linkscript
@@ -35,14 +37,13 @@
     . = ALIGN(8);
   } >RAM
 ```
-正常情况下只需修改一遍, cubemx不会覆盖该文件. 如果被覆盖了, 那么需重新该一遍.
 
+正常情况下只需修改一遍, cubemx不会覆盖该文件. 如果被覆盖了, 那么需重新该一遍.
 
 ### 3. 修改 project-settings.cmake
 
 - PROJECT_NAME
 - TARGET_MCU
-
 
 ## 其他
 
