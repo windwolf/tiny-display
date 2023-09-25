@@ -19,7 +19,7 @@ set(SYSCALL "RTT")
 set(LOG_LEVEL "INFO")
 
 # set(OS "threadx")
-# set(OS "nortos")
-set(OS "freertos")
+set(OS "nortos")
+# set(OS "freertos")
 set(OS_PORT_FREERTOS_MEM_MANG "heap4")
 
