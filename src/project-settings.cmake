@@ -15,6 +15,8 @@ option(ENABLE_DEMO "Enable demo" ON)
 set(SYSCALL "RTT")
 set(LOG_LEVEL "INFO")
 
+set(EVENT_POOL_SIZE 2)
+
 # set(OS "threadx")
 # set(OS "nortos")
 set(OS "freertos")

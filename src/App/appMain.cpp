@@ -13,7 +13,7 @@
 #include "usart.h"
 #include "spi.h"
 #include "gpio.h"
-#include "stream.hpp"
+#include "message-stream.hpp"
 #include "soft-i2c.hpp"
 
 using namespace wibot;
@@ -129,6 +129,6 @@ class App : AppFramework {
         .crcSize    = DataWidth::kNone,
         .suffixSize = 0,
     };
-    Stream stream;
+    MessageStream stream;
 };
 static App app1 = App();
